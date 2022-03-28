@@ -168,7 +168,7 @@ footer a{
 /*-----------TRANSFORMACIONES-------------*/
 
 
-/*.linear-gradient{
+.linear-gradient{
 	background: linear-gradient(to top, #c79fc0, white);
 }
 
@@ -184,7 +184,7 @@ footer a{
 	box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
 	-webkit-box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
-}*/
+}
 
 
   
