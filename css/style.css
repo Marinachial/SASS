@@ -84,6 +84,30 @@ header h2{
 	opacity: 0.9;
 }
 
+/*Breadcrumb segunda nav*/
+
+.breadcrumb a{
+	text-decoration: none;
+	color: #1493A2;
+}
+
+.breadcrumb-item.active{
+	color: #ea7cb7;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+	color: #ea7cb7;
+}
+
+
+#SeccionSobre img[src="../img/sillaa.png"]{
+ 	width: 425px;
+ 	height: 584px;
+}
+
+
+
+
 
 /*----------Mediaq del slider-----------*/
 
@@ -97,6 +121,15 @@ header h2{
 	#carouselExampleControls2{
 		display: none;
 	}
+}
+
+/*----------Mediaq de la imagen Sección Sobre-----------*/
+
+@media (min-width: 280px) and (max-width: 375px){
+	#SeccionSobre img[src="../img/sillaa.png"]{
+ 		width: 325px;
+ 		height: 484px;
+ 	}
 }
 
 
