@@ -228,22 +228,32 @@ footer a{
 	margin-top: 30px;
 }
 
-.iconss{
-
-}
 
 .bi-whatsapp{
-	font-size: 40px;
 	color: #84b7bd;
+	width: 45px;
+	height: 45px;
 }
 
 .bi-whatsapp:hover{
 	color: #8487ce;
 }
 
-.bi-instagram{
-	font-size: 40px;
+
+.bi-house{
+	width: 45px;
+	height: 45px;
 	color: #84b7bd;
+}
+
+.bi-house:hover{
+	color: #8487ce;
+}
+
+.bi-instagram{
+	color: #84b7bd;
+	width: 45px;
+	height: 45px;
 }
 
 .bi-instagram:hover{
@@ -251,17 +261,6 @@ footer a{
 }
 
 
-.pie__icon--sm{
-	width: 45px;
-	height: 45px;
-}
-
-
-.pie__icon--md{
-	width: 60px;
-	height: 45px;
-	margin-bottom: 20px;
-}
 
 
 
