@@ -1,0 +1,16 @@
+
+/*----------Mediaq del slider-----------*/
+
+@media (max-width: 768px) { 
+	#carouselExampleControls{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) { 
+	#carouselExampleControls2{
+		display: none;
+	}
+}
+
+

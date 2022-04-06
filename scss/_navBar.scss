@@ -1,0 +1,61 @@
+.bg-lila{
+	font-size: $textMd;
+  	font-weight: bold; 
+	background-color: $cuartoColor;
+	
+  	.navbar-light {
+    	color: $primerColor;
+  	}
+
+	a.navbar-brand{
+		width: 250px;
+		height: 47.5px;
+		@media (min-width: 280px) and (max-width: 375px){
+			width: 180px;
+			height: 47.5px;
+		}
+	}
+
+	.navbar-nav{
+    	color: $primerColor;
+   
+    	&:hover {
+			color: $segundoColor; 
+		}
+		&:visited{
+			color: $tercerColor;
+		}
+	    	
+	    .nav-link{
+	    	color: $primerColor;
+		
+			&:hover {
+				color: $segundoColor; 
+			}
+			&:visited{
+				color: $tercerColor;
+			}
+		}
+	}
+
+
+  	.dropdown-item {
+  		color: $primerColor; 
+
+  		&:hover{
+  			color: $segundoColor;
+  		}
+
+  		&:visited{
+  			color: $tercerColor;
+  		}
+  	}
+
+  	.btn.btn-outline-success {
+ 		color: $primerColor;
+  		border-color: $primerColor;
+  		border-width: 3px; 
+  	}
+
+}
+

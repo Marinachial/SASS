@@ -1,0 +1,23 @@
+#mainSobre{
+	h2{
+		background-color: $octavoColor;
+		opacity: 0.9;
+	}
+	
+	#seccionSobre img{
+	 	width: 425px;
+	 	height: 584px;
+	 	@media (min-width:280px) and (max-width: 434px){
+ 			width: 310px;
+ 			height: 480px;
+ 		}
+	}
+
+	.bg-color2 {
+	    background-color: $segundoColor;
+	}
+	.pfont{
+		font-size: 20px;
+		color: $octavoColor;
+	}
+}

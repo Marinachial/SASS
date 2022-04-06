@@ -1,0 +1,41 @@
+footer{
+	width: 100%;
+	background-color: #ebebeb; 
+	height: 100px;
+	display: flex;
+	justify-content: center;
+
+	.tamañofoot{
+	margin-top: 30px;
+
+		a{
+			text-decoration: none;
+			.bi-whatsapp{
+				color: $quintoColor;
+				width: 45px;
+				height: 45px;
+				&:hover{
+					color: $segundoColor;
+				}
+			}
+
+			.bi-house{
+				color: $quintoColor;
+				width: 45px;
+				height: 45px;
+				&:hover{
+					color: $segundoColor;
+				}	
+			}
+
+			.bi-instagram{
+				color: $quintoColor;
+				width: 45px;
+				height: 45px;
+				&:hover{
+					color: $segundoColor;
+				}
+			}
+		}
+	}
+}
