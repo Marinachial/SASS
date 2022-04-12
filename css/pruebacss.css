@@ -110,17 +110,18 @@ nav .breadcrumb {
   font-size: 20px;
   color: #FFFFFF; }
 
-#mainTurnos .card-titlesobre {
-  font-weight: bold;
-  color: #f5d165; }
-  #mainTurnos .card-titlesobre .card-text2 {
-    font-size: 1rem; }
-
-#mainTurnos .card-titlesobre2 {
-  font-weight: bold;
-  color: #ea7cb7; }
-  #mainTurnos .card-titlesobre2 .card-text2 {
-    font-size: 1rem; }
+#mainTurnos .card {
+  background-color: #f7f7f7; }
+  #mainTurnos .card .card-titlesobre {
+    font-weight: bold;
+    color: #f5d165; }
+    #mainTurnos .card .card-titlesobre .card-text2 {
+      font-size: 1rem; }
+  #mainTurnos .card .card-titlesobre2 {
+    font-weight: bold;
+    color: #ea7cb7; }
+    #mainTurnos .card .card-titlesobre2 .card-text2 {
+      font-size: 1rem; }
 
 #mainContacto h2 {
   background-color: #FFFFFF;
@@ -128,6 +129,10 @@ nav .breadcrumb {
 
 #mainContacto .bg-color3 {
   background-color: #709094; }
+
+#mainContacto .btn-primary {
+  background-color: #ea7cb7;
+  border-color: #FFFFFF; }
 
 footer {
   width: 100%;
@@ -139,23 +144,11 @@ footer {
     margin-top: 30px; }
     footer .tamañofoot a {
       text-decoration: none; }
-      footer .tamañofoot a .bi-whatsapp {
+      footer .tamañofoot a .bi-whatsapp, footer .tamañofoot a .bi-house, footer .tamañofoot a .bi-instagram {
         color: #84b7bd;
         width: 45px;
         height: 45px; }
-        footer .tamañofoot a .bi-whatsapp:hover {
-          color: #8487ce; }
-      footer .tamañofoot a .bi-house {
-        color: #84b7bd;
-        width: 45px;
-        height: 45px; }
-        footer .tamañofoot a .bi-house:hover {
-          color: #8487ce; }
-      footer .tamañofoot a .bi-instagram {
-        color: #84b7bd;
-        width: 45px;
-        height: 45px; }
-        footer .tamañofoot a .bi-instagram:hover {
+        footer .tamañofoot a .bi-whatsapp:hover, footer .tamañofoot a .bi-house:hover, footer .tamañofoot a .bi-instagram:hover {
           color: #8487ce; }
 
 /*-----------TRANSFORMACIONES Y ANIMACIONES-------------*/

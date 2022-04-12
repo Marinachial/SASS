@@ -20,21 +20,11 @@ footer{
 			}
 
 			.bi-house{
-				color: $quintoColor;
-				width: 45px;
-				height: 45px;
-				&:hover{
-					color: $segundoColor;
-				}	
+				@extend .bi-whatsapp;
 			}
 
 			.bi-instagram{
-				color: $quintoColor;
-				width: 45px;
-				height: 45px;
-				&:hover{
-					color: $segundoColor;
-				}
+				@extend .bi-whatsapp;
 			}
 		}
 	}

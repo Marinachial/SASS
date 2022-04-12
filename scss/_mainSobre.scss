@@ -17,7 +17,6 @@
 	    background-color: $segundoColor;
 	}
 	.pfont{
-		font-size: 20px;
-		color: $octavoColor;
+		@include texto(20px, $octavoColor) 
 	}
 }

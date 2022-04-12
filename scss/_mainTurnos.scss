@@ -1,19 +1,20 @@
 #mainTurnos{
-	.card-titlesobre{
+
+	.card{
+		background-color: map-get($fondoCards, fondo2);
+		.card-titlesobre{
 		font-weight: bold;
 		color: $sextoColor;
 		.card-text2{
 			font-size: $textSm;
-
+			}
+		}	
+		.card-titlesobre2{
+			font-weight: bold;
+			color: $tercerColor; 
+			.card-text2{
+				font-size: $textSm;
+			}
 		}
 	}	
-	.card-titlesobre2{
-		font-weight: bold;
-		color: $tercerColor; 
-		.card-text2{
-			font-size: $textSm;
-
-		}
-
-	}
 }
