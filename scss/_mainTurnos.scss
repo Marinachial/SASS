@@ -2,6 +2,14 @@
 
 	.card{
 		background-color: map-get($fondoCards, fondo2);
+		@media (min-width:400px) and (max-width: 544px){
+			height: auto;
+			width: 400px;
+		}
+		@media (min-width:280px) and (max-width: 399px){
+			height: auto;
+			width: 280px;
+		}
 		.card-titlesobre{
 		font-weight: bold;
 		color: $sextoColor;

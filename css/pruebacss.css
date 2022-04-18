@@ -15,8 +15,12 @@ body {
   #carouselExampleControls {
     display: none; } }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #carouselExampleControls2 {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #carouselExampleControls3 {
     display: none; } }
 
 .bg-lila {
@@ -85,33 +89,92 @@ nav .breadcrumb {
   background-color: #FFFFFF;
   opacity: 0.9; }
 
-#sectionIndex .card-text1 {
-  font-size: 1rem;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-weight: bold; }
+#sectionIndex .card {
+  border: 2px solid;
+  border-color: #9e7e98;
+  border-radius: 20px; }
+  #sectionIndex .card img {
+    border-radius: 5px; }
+  #sectionIndex .card .card-text1 {
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+#carouselExampleControls3 img {
+  height: 90vh; }
 
 #mainSobre h2 {
   background-color: #FFFFFF;
   opacity: 0.9; }
 
-#mainSobre #seccionSobre img {
-  width: 425px;
-  height: 584px; }
-  @media (min-width: 280px) and (max-width: 434px) {
-    #mainSobre #seccionSobre img {
-      width: 310px;
-      height: 480px; } }
+#mainSobre #seccionSobre {
+  background-color: #84b7bd;
+  border-top: 2px solid #709094;
+  box-shadow: 0px 28px 11px -23px rgba(0, 0, 0, 0.75); }
+  @media (min-width: 280px) and (max-width: 1266px) {
+    #mainSobre #seccionSobre {
+      display: none; } }
+  #mainSobre #seccionSobre img {
+    width: 300px;
+    height: 480px; }
 
-#mainSobre .bg-color2 {
-  background-color: #8487ce; }
+#mainSobre #fotoYami {
+  background-color: #84b7bd;
+  border-top: 2px solid #709094;
+  box-shadow: 0px 28px 11px -23px rgba(0, 0, 0, 0.75); }
+  @media (min-width: 280px) and (max-width: 1266px) {
+    #mainSobre #fotoYami {
+      width: 100%; } }
+  #mainSobre #fotoYami img {
+    border-radius: 100%;
+    width: auto;
+    height: 450px; }
+    @media (min-width: 280px) and (max-width: 374px) {
+      #mainSobre #fotoYami img {
+        width: 250px;
+        height: auto; } }
 
-#mainSobre .pfont {
-  font-size: 20px;
-  color: #FFFFFF; }
+#mainSobre #textoYami {
+  background-color: #84b7bd;
+  border-top: 2px solid #709094;
+  box-shadow: 0px 28px 11px -23px rgba(0, 0, 0, 0.75); }
+  @media (min-width: 280px) and (max-width: 1266px) {
+    #mainSobre #textoYami {
+      width: 100%; } }
+  #mainSobre #textoYami .pfont {
+    font-size: 24px;
+    color: #2c3638;
+    padding: 48px; }
+    @media (min-width: 375px) and (max-width: 768px) {
+      #mainSobre #textoYami .pfont {
+        font-size: 21px;
+        padding: 5px; } }
+    @media (min-width: 280px) and (max-width: 374px) {
+      #mainSobre #textoYami .pfont {
+        font-size: 18px;
+        display: flex;
+        text-align: left;
+        padding: 0px; } }
+
+#mainGaleria .card-body {
+  background-color: #9e7e98; }
+  #mainGaleria .card-body h3 {
+    color: #FFFFFF;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6); }
+  #mainGaleria .card-body p {
+    color: #FFFFFF; }
 
 #mainTurnos .card {
   background-color: #f7f7f7; }
+  @media (min-width: 400px) and (max-width: 544px) {
+    #mainTurnos .card {
+      height: auto;
+      width: 400px; } }
+  @media (min-width: 280px) and (max-width: 399px) {
+    #mainTurnos .card {
+      height: auto;
+      width: 280px; } }
   #mainTurnos .card .card-titlesobre {
     font-weight: bold;
     color: #f5d165; }
@@ -134,6 +197,12 @@ nav .breadcrumb {
   background-color: #ea7cb7;
   border-color: #FFFFFF; }
 
+#mainContacto h3 {
+  background-color: #709094;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6); }
+
 footer {
   width: 100%;
   background-color: #ebebeb;
@@ -150,6 +219,10 @@ footer {
         height: 45px; }
         footer .tamañofoot a .bi-whatsapp:hover, footer .tamañofoot a .bi-house:hover, footer .tamañofoot a .bi-instagram:hover {
           color: #8487ce; }
+        @media (min-width: 280px) and (max-width: 426px) {
+          footer .tamañofoot a .bi-whatsapp, footer .tamañofoot a .bi-house, footer .tamañofoot a .bi-instagram {
+            width: 30px;
+            height: 30px; } }
 
 /*-----------TRANSFORMACIONES Y ANIMACIONES-------------*/
 .linear-gradient {
@@ -158,11 +231,6 @@ footer {
 .scale:hover {
   transform: scale(1.1);
   cursor: pointer; }
-
-.skew:hover {
-  box-shadow: 7px 5px 6px -4px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 7px 5px 6px -4px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 7px 5px 6px -4px rgba(0, 0, 0, 0.6); }
 
 @keyframes animateArticle {
   0% {

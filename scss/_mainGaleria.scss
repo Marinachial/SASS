@@ -1,0 +1,12 @@
+#mainGaleria{
+	.card-body{
+		background-color: map-get($fondoCards, fondo4);
+		h3{
+			color: $octavoColor;
+			text-shadow: 2px 3px 2px rgba(0,0,0,0.6);
+		}
+		p{
+			color: $octavoColor;
+		}
+	}	
+}

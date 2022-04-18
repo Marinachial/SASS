@@ -11,4 +11,9 @@
 		background-color: $tercerColor;
 		border-color: $octavoColor;
 	}
+	h3{
+		background-color: $septimoColor;
+		@include texto(25px, $octavoColor)
+		text-shadow: 2px 3px 2px rgba(0,0,0,0.6);
+	}
 }

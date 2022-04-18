@@ -7,8 +7,14 @@
 	}
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 769px) { 
 	#carouselExampleControls2{
+		display: none;
+	}
+}
+
+@media (max-width: 768px) { 
+	#carouselExampleControls3{
 		display: none;
 	}
 }

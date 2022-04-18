@@ -4,19 +4,57 @@
 		opacity: 0.9;
 	}
 	
-	#seccionSobre img{
-	 	width: 425px;
-	 	height: 584px;
-	 	@media (min-width:280px) and (max-width: 434px){
- 			width: 310px;
- 			height: 480px;
- 		}
+	#seccionSobre {
+		background-color: $quintoColor;
+		border-top: 2px solid $septimoColor;
+		box-shadow: 0px 28px 11px -23px rgba(0,0,0,0.75);
+		@media (min-width:280px) and (max-width: 1266px){
+	 		display: none;
+	 	}
+		 img{
+		 	width: 300px;
+		 	height: 480px;
+		}
 	}
 
-	.bg-color2 {
-	    background-color: $segundoColor;
+	#fotoYami {
+		background-color: $quintoColor;
+		border-top: 2px solid $septimoColor;		
+		box-shadow: 0px 28px 11px -23px rgba(0,0,0,0.75);
+		@media (min-width:280px) and (max-width: 1266px){
+	 		width: 100%;
+	 	}
+		img{
+			border-radius: 100%;
+			width: auto;
+		 	height: 450px;
+			@media (min-width:280px) and (max-width: 374px){
+	 			width: 250px;
+	 			height: auto;
+	 		}
+		}
 	}
-	.pfont{
-		@include texto(20px, $octavoColor) 
+
+	#textoYami {
+		background-color: $quintoColor;
+		border-top: 2px solid $septimoColor;
+		box-shadow: 0px 28px 11px -23px rgba(0,0,0,0.75);
+		@media (min-width:280px) and (max-width: 1266px){
+	 		width: 100%;
+	 	}
+		.pfont{
+			@include texto(24px, $novenoColor)
+			padding: 48px;
+			@media (min-width:375px) and (max-width: 768px){
+				font-size: 21px;
+	 			padding: 5px;
+	 		}
+			@media (min-width:280px) and (max-width: 374px){
+	 			font-size: 18px;
+	 			display: flex;
+	 			text-align: left;
+	 			padding: 0px;
+	 		}
+		}
 	}
 }
