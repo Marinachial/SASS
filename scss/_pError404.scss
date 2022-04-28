@@ -1,0 +1,39 @@
+#error4{
+	background-color: $quintoColor;
+	min-height: 100vh;
+	h1{
+		font-size: $textLg;
+		font-weight: bold;
+		color: $octavoColor;
+		@media (min-width:280px) and (max-width: 650px){
+			font-size: $textMd2;
+	 	}
+	}
+	p{
+		font-size: $textMd2;
+		color: $octavoColor;
+		@media (min-width:280px) and (max-width: 650px){
+			font-size: $textMd;
+	 	}
+		a{
+			text-decoration: none;
+			color: $tercerColor;
+			&:hover{
+				color: $segundoColor;
+			}
+		}
+	}
+	img{
+		@media (min-width:425px) and (max-width: 650px){
+	 		width: 420px;
+	 		height: auto;
+	 	}
+	 	@media (min-width:280px) and (max-width: 424px){
+	 		width: 280px;
+	 		height: auto;
+	 	}
+	}
+}
+#footer404{
+	margin-top: auto;
+}

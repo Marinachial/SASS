@@ -1,6 +1,5 @@
 /*-----------TRANSFORMACIONES Y ANIMACIONES-------------*/
 
-
 .linear-gradient{
 	background: linear-gradient(to top, #c79fc0, white);
 }
@@ -9,14 +8,6 @@
 	transform: scale(1.1);
 	cursor: pointer;
 }
-
-
-// .skew:hover{
-// 	box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
-// 	-webkit-box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
-// 	-moz-box-shadow: 7px 5px 6px -4px rgba(0,0,0,0.6);
-// }
-
 
 @keyframes animateArticle{
 	0%{width: 400px;}
@@ -27,8 +18,8 @@
 
 .animate{
 	animation-name: animateArticle;
-	animation-iteration-count: 2;
+	animation-iteration-count: 1;
 	animation-timing-function: ease;
-	animation-duration: 3s;
+	animation-duration: 5s;
 	animation-delay: 1s;
 }

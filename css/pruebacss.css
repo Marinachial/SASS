@@ -102,7 +102,7 @@ nav .breadcrumb {
     font-weight: bold; }
 
 #carouselExampleControls3 img {
-  height: 90vh; }
+  height: auto; }
 
 #mainSobre h2 {
   background-color: #FFFFFF;
@@ -167,10 +167,6 @@ nav .breadcrumb {
 
 #mainTurnos .card {
   background-color: #f7f7f7; }
-  @media (min-width: 400px) and (max-width: 544px) {
-    #mainTurnos .card {
-      height: auto;
-      width: 400px; } }
   @media (min-width: 280px) and (max-width: 399px) {
     #mainTurnos .card {
       height: auto;
@@ -192,6 +188,10 @@ nav .breadcrumb {
 
 #mainContacto .bg-color3 {
   background-color: #709094; }
+  #mainContacto .bg-color3 label {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6); }
 
 #mainContacto .btn-primary {
   background-color: #ea7cb7;
@@ -202,6 +202,42 @@ nav .breadcrumb {
   font-size: 25px;
   color: #FFFFFF;
   text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6); }
+  @media (min-width: 280px) and (max-width: 767px) {
+    #mainContacto h3 {
+      margin-top: 5px; } }
+
+#error4 {
+  background-color: #84b7bd;
+  min-height: 100vh; }
+  #error4 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF; }
+    @media (min-width: 280px) and (max-width: 650px) {
+      #error4 h1 {
+        font-size: 2rem; } }
+  #error4 p {
+    font-size: 2rem;
+    color: #FFFFFF; }
+    @media (min-width: 280px) and (max-width: 650px) {
+      #error4 p {
+        font-size: 1.5rem; } }
+    #error4 p a {
+      text-decoration: none;
+      color: #ea7cb7; }
+      #error4 p a:hover {
+        color: #8487ce; }
+  @media (min-width: 425px) and (max-width: 650px) {
+    #error4 img {
+      width: 420px;
+      height: auto; } }
+  @media (min-width: 280px) and (max-width: 424px) {
+    #error4 img {
+      width: 280px;
+      height: auto; } }
+
+#footer404 {
+  margin-top: auto; }
 
 footer {
   width: 100%;
@@ -245,7 +281,7 @@ footer {
 
 .animate {
   animation-name: animateArticle;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
   animation-timing-function: ease;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: 1s; }

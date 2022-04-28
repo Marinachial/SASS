@@ -5,6 +5,11 @@
 	}
 	.bg-color3{
 		background-color: $septimoColor;
+		label{
+			font-size: $textMd;
+			color: $octavoColor;
+			text-shadow: 2px 3px 2px rgba(0,0,0,0.6);
+		}
 	}
 
 	.btn-primary{
@@ -15,5 +20,8 @@
 		background-color: $septimoColor;
 		@include texto(25px, $octavoColor)
 		text-shadow: 2px 3px 2px rgba(0,0,0,0.6);
+		@media (min-width:280px) and (max-width: 767px){
+			margin-top: 5px;
+	 	}
 	}
 }
