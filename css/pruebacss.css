@@ -181,6 +181,9 @@ nav .breadcrumb {
     color: #ea7cb7; }
     #mainTurnos .card .card-titlesobre2 .card-text2 {
       font-size: 1rem; }
+  #mainTurnos .card .btn-primary {
+    background-color: #ea7cb7;
+    border-color: #FFFFFF; }
 
 #mainContacto h2 {
   background-color: #FFFFFF;

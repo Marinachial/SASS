@@ -1,0 +1,48 @@
+[
+	{"id": 1,
+	"nombre": "Corte",
+	"precio": 1200, 
+	"desc": "Un clasico",
+	"demora": "40min",
+	"img": "../img/turnos2.jpg"
+},
+
+	{"id": 2,
+	"nombre": "Tintura",
+	"precio": 2500,
+	"desc": "Un clasico pero con un poco mas de onda.",
+	"demora": "3hs",
+	"img":"../img/turnos6.jpg"
+},
+
+	{"id": 3,
+	"nombre": "Color Fantasía",
+	"precio": 3500, 
+	"desc": "Para les valientes, incluye decoloracion",
+	"demora": "4hs", 
+	"img":"../img/turnos1.jpg"
+},
+
+
+	{"id": 4, 
+	"nombre": "Nutricion",
+	"precio": 900, 
+	"desc": "Para ese pelo mas seco que tu ex",
+	"demora": "60min",
+	"img":"../img/turnos5.jpg"
+},
+	{"id": 5,
+	"nombre": "Antifrizz",
+	"precio": 1000,
+	"desc": "Para que tu pelito sobreviva a la humedad",
+	"demora": "45min",
+	"img":"../img/turnos3.jpg"
+},
+	{"id": 6,
+	"nombre": "Gift Card",
+	"precio": 2500,
+	"desc": "Podes elegir una gift con todas las opciones anteriores. Y se la enviamos directamente a quian vos quieras.",
+	"demora": "3hs",
+	"img":"../img/turnos8.jpg"
+}
+]
