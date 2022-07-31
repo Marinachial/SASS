@@ -14,8 +14,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<!-- --ICONOS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-	<!-- --Sweet Alert -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<!-- --Mis estilos CSS -->
 	<link rel="stylesheet" href="../css/pruebacss.css">
 </head>
@@ -217,6 +215,33 @@
 				</nav>
 			</section>
 		</main>
+<!-- BOTON FINALIZAR -->
+		<div>
+			<button id="finCompra" class="btn btn-primary">Finalizar</button>
+		</div>
+<!-- CARD CARRITO -->
+		<div id="carrito" class="card" style="width: 18rem;">
+ 		<!--<img id=fotoProducto src="${img}" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <p id="descProducto" class="card-text2">Seleccionaste</p>
+			  <p id=precioProducto>$</p>
+			  <p>Cantidad</p> 
+			<button type="button" class="btn btn-primary">Aceptar</button>
+			<button type="button" id="eliminar" class="btn btn-secondary">Borrar</button>
+			</div>>-->
+		</div>
+ <!-- CARD CARRITO VACIO -->
+		<div id="carritoVacio" class="card mb-3" style="max-width: 540px;">
+ 		<!--<div class="col-md-8 col-sm-4">
+		<img src="../img/carritovacio.png" class="card-img-top" alt="bolsa de compras vacia.">	
+		</div>
+		<div class="col-md-4 col-sm-8">
+		<div class="card-body">
+			<p class="card-text">No hay nada seleccionado.</p>
+		</div>
+		</div>  -->
+		</div>
+	
 <!-- EMPIEZA FOOTER -->
 	<footer>
 		<div class="tamañofoot">
@@ -249,5 +274,9 @@
     <script>new WOW().init();</script>-->
     <!--JAVA SCRIPT -->
     <script src="../js/main.js" type="module"></script>
+	<!--SWEET ALERT -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<!--EMAIL JS 
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>-->
 </body>
 </html>
